@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+	background:	#232323;
+	margin: 0;
+	font-family: "Ubuntu", "sans-serif";
+}
+
+.square{
+	width: 30%;
+	margin: 1.66%;
+	float: left;
+	padding-bottom: 30%;
+	border-radius: 20%;
+	transition: background 1.0s;
+	-webkit-transition: background 1.0s;
+	-moz--transition: background;
+}
+
+#container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+#middle{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 1s;
+	outline: none;
+}
+#message {
+	width: 20%;
+	display: inline-block;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
